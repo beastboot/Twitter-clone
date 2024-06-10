@@ -10,7 +10,7 @@ const RightSidebar = ({ otherUsers }) => {
         <CiSearch size="20px" />
         <input
           type="text"
-          className="bg-gray-200 text-black rounded outline-none px-3"
+          className="bg-gray-200 color: rgb(231, 233, 234) rounded outline-none px-3"
           placeholder="Search"
         />
       </div>
@@ -25,7 +25,7 @@ const RightSidebar = ({ otherUsers }) => {
               <div className="flex">
                 <div>
                   <Avatar
-                    src="https://pbs.twimg.com/profile_images/1703261403237502976/W0SFbJVS_400x400.jpg"
+                    src="https://e7.pngegg.com/pngimages/799/987/png-clipart-computer-icons-avatar-icon-design-avatar-heroes-computer-wallpaper-thumbnail.png"
                     size="40"
                     round={true}
                   />

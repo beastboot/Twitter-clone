@@ -64,12 +64,12 @@ const Profile = () => {
           </div>
         </div>
         <img
-          src="https://pbs.twimg.com/profile_banners/1581707412922200067/1693248932/1080x360"
+          src="https://cdn.vectorstock.com/i/500p/14/95/banner-software-ui-and-development-for-different-vector-37731495.jpg"
           alt="banner"
         />
         <div className="absolute top-52 ml-2 border-4 border-white rounded-full">
           <Avatar
-            src="https://pbs.twimg.com/profile_images/1703261403237502976/W0SFbJVS_400x400.jpg"
+            src="https://e7.pngegg.com/pngimages/799/987/png-clipart-computer-icons-avatar-icon-design-avatar-heroes-computer-wallpaper-thumbnail.png"
             size="120"
             round={true}
           />
@@ -93,11 +93,7 @@ const Profile = () => {
           <p>{`@${profile?.username}`}</p>
         </div>
         <div className="m-4 text-sm">
-          <p>
-            🌐 Exploring the web's endless possibilities with MERN Stack 🚀 |
-            Problem solver by day, coder by night 🌙 | Coffee lover ☕ | Join me
-            on this coding journey!
-          </p>
+          <p>21 year old lad || Web Developer ||</p>
         </div>
       </div>
     </div>

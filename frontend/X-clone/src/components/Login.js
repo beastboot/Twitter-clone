@@ -18,7 +18,6 @@ const Login = () => {
   const submitHandler = async (e) => {
     e.preventDefault();
     if (isLogin) {
-      // login
       try {
         const res = await axios.post(
           `${USER_API_END_POINT}/login`,
@@ -40,7 +39,6 @@ const Login = () => {
         console.log(error);
       }
     } else {
-      // signup
       try {
         const res = await axios.post(
           `${USER_API_END_POINT}/register`,

@@ -72,7 +72,7 @@ const CreatePost = () => {
           <div className="flex items-center p-4">
             <div>
               <Avatar
-                src="https://pbs.twimg.com/profile_images/1703261403237502976/W0SFbJVS_400x400.jpg"
+                src="https://e7.pngegg.com/pngimages/799/987/png-clipart-computer-icons-avatar-icon-design-avatar-heroes-computer-wallpaper-thumbnail.png"
                 size="40"
                 round={true}
               />
@@ -86,9 +86,7 @@ const CreatePost = () => {
             />
           </div>
           <div className="flex items-center justify-between p-4 border-b border-gray-300">
-            <div>
-              <CiImageOn size="24px" />
-            </div>
+            <div>{/* <CiImageOn size="24px" /> */}</div>
             <button
               onClick={submitHandler}
               className="bg-[#1D9BF0] px-4 py-1 text-lg text-white text-right border-none rounded-full "
